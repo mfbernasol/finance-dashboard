@@ -81,13 +81,7 @@ const Row1 = () => {
             }}
           >
             <defs>
-              <linearGradient
-                id="colorRevenue"
-                x1="0"
-                y1="0"
-                x2="0"
-                y2="1"
-              >
+              <linearGradient id="colorRevenue" x1="0" y1="0" x2="0" y2="1">
                 <stop
                   offset="5%"
                   stopColor={palette.primary[300]}
@@ -99,13 +93,7 @@ const Row1 = () => {
                   stopOpacity={0}
                 />
               </linearGradient>
-              <linearGradient
-                id="colorExpenses"
-                x1="0"
-                y1="0"
-                x2="0"
-                y2="1"
-              >
+              <linearGradient id="colorExpenses" x1="0" y1="0" x2="0" y2="1">
                 <stop
                   offset="5%"
                   stopColor={palette.primary[300]}
@@ -167,10 +155,7 @@ const Row1 = () => {
               bottom: 55,
             }}
           >
-            <CartesianGrid
-              vertical={false}
-              stroke={palette.grey[800]}
-            />
+            <CartesianGrid vertical={false} stroke={palette.grey[800]} />
             <XAxis
               dataKey="name"
               tickLine={false}
@@ -212,7 +197,7 @@ const Row1 = () => {
         </ResponsiveContainer>
       </DashboardBox>
       <DashboardBox gridArea="c">
-      <BoxHeader
+        <BoxHeader
           title="Revenue Month by Month"
           subtitle="graph representing the revenue month by month"
           sideText="+4%"
