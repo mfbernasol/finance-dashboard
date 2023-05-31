@@ -8,10 +8,8 @@ import {
 } from "@/state/api";
 import { Box, Typography, useTheme } from "@mui/material";
 import { DataGrid, GridCellParams } from "@mui/x-data-grid";
-import React, { useMemo } from "react";
+import { useMemo } from "react";
 import { Cell, Pie, PieChart } from "recharts";
-
-type Props = {};
 
 const Row3 = () => {
   const { palette } = useTheme();
@@ -171,6 +169,8 @@ const Row3 = () => {
                   paddingAngle={2}
                   dataKey="value"
                 >
+                  {/* 
+// @ts-ignore */}
                   {data.map((entry, index) => (
                     <Cell
                       key={`cell-${index}`}

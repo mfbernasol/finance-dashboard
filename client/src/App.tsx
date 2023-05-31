@@ -1,4 +1,4 @@
-import { Box, CssBaseline, ThemeProvider, dividerClasses } from '@mui/material';
+import { Box, CssBaseline, ThemeProvider } from '@mui/material';
 import { createTheme } from '@mui/material/styles';
 import { useMemo } from 'react';
 import { themeSettings } from './theme';
