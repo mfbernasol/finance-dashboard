@@ -3,7 +3,6 @@ import { createTheme } from '@mui/material/styles';
 import { useMemo } from 'react';
 import { themeSettings } from './theme';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Css } from '@mui/icons-material';
 import Navbar from "@/scenes/navbar";
 import Dashboard from '@/scenes/dashboard';
 import Predictions from "@/scenes/predictions"
